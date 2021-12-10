@@ -1,5 +1,4 @@
-# Youtube-concept - учебный проект Glo Academy
-Проект выполнил: Рустам Рамазанов
+# Youtube-concept
 ## Используемые технологии
 - HTML
 - CSS
