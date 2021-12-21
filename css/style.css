@@ -112,7 +112,13 @@ body {
   border-radius: 50%;
 }
 
+/* container */
+.container {
+  width: 100vw;
+}
+
 .sidebar {
+  width: calc(100vw - 11vw);
   padding-left: 32px;
 }
 .nav-menu {
@@ -153,4 +159,11 @@ body {
   font-size: 18px;
   line-height: 23px;
   margin-bottom: 30px;
+}
+
+/* user video */
+.avatar-n-nickname img {
+  width: 50px;
+  border-radius: 50%;
+  position: relative;
 }
