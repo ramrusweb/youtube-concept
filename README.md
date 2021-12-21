@@ -1,5 +1,5 @@
-# Youtube-concept
-## Используемые технологии
+# Youtube Concept<br>
+## Stack
 - HTML
 - CSS
 - Normalize.css
