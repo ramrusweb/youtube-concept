@@ -2,6 +2,10 @@
   box-sizing: border-box;
   outline: none;
 }
+h2, h3 {
+  margin: 0;
+  padding: 0;
+}
 body {
   font-family: 'Mulish', sans-serif;
   font-size: 16px;
@@ -12,10 +16,8 @@ body {
   display: flex;
   align-items: center;
   padding-top: 20px;
-  padding-bottom: 20px;
   padding-left: 32px;
   padding-right: 70px;
-  margin-bottom: 30px;
 }
 
 .menu-button {
@@ -118,14 +120,21 @@ body {
 }
 
 .sidebar {
-  width: calc(100vw - 11vw);
   padding-left: 32px;
+  width: 194px;
+}
+.nav {
+  width: 134px;
+  margin-right: 90px;
+  margin-top: 59px;
 }
 .nav-menu {
   margin-top: 0;
   margin-bottom: 60px;
   padding-left: 0;
+  margin-right: 66px;
   list-style-type: none;
+  width: 162px;
 }
 .nav-item {
   margin-bottom: 28px;
@@ -161,26 +170,103 @@ body {
   margin-bottom: 30px;
 }
 
-/* user video content */
-.user-video-content {
-  width: 100vw;
-  padding-bottom: 30px;
+/* .content */
+.content {
+  width: 1761px;
+  margin-left: 186px;
 }
 
-.avatar-and-nickname {
+/* .user-feed-video */
+.user-feed-video {
+  padding-top: 50px;
+  padding-bottom: 50px;
+  margin-top: -1120px;
+}
+/* .user-feed-video-content */
+.user-feed-video-content {
+  margin-left: 40px;
+  display: inline-flex;
+}
+.user-feed-title {
   display: flex;
+  justify-content: space-between;
+}
+.user-feed-pic-n-name {
+  display: flex;
+  margin-bottom: 15px;
+  margin-left: 40px;
   align-items: center;
+  height: 100%;
+  min-width: 245px;
 }
 
-.avatar-and-nickname img {
+.user-feed-pic {
   width: 50px;
   height: 50px;
   border-radius: 50%;
   margin-right: 20px;
 }
-
-.avatar-and-nickname h1 {
+.user-feed-name {
   color: #19202C;
   font-weight: 700;
   font-size: 26px;
+}
+
+/* user-video */
+.user-video-preview {
+  border-radius: 14px;
+  width: 250px;
+  height: 150px;
+  position: relative;
+  display: block;
+  margin-bottom: 10px
+}
+.user-video-time {
+  background-color: rgba(0, 0, 0, 0.3);
+  width: 47px;
+  height: 24px;
+  border-radius: 12px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  margin-top: -44px;
+  margin-left: 193px;
+}
+.user-video-time {
+  font-size: 14px;
+  color: #ffffff;
+}
+
+/* user-video-description */
+.user-video-name {
+  font-size: 16px;
+  color: #19202C;
+  font-weight: 700;
+  margin-bottom: 4px;
+}
+
+/* .views-days-name description */
+.views-days-name {
+  display: flex;
+  justify-content: space-between;
+}
+.views-days-name h3 {
+  font-size: 13px;
+  color: #c2c2c2;
+  font-weight: 400;
+}
+
+.slider-arrows {
+  display: flex;
+  align-items: center;
+  margin-right: 184px;
+}
+.slider-prev {
+  margin-right: 10px;
+  width: 28px;
+}
+.slider-next {
+  transform: scale(-1, 1);
+  width: 28px;
 }
