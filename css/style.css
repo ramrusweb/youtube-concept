@@ -193,7 +193,7 @@ body {
 }
 .user-feed-pic-n-name {
   display: flex;
-  margin-bottom: 15px;
+  margin-bottom: 30px;
   margin-left: 40px;
   align-items: center;
   height: 100%;
@@ -228,10 +228,8 @@ body {
   height: 24px;
   border-radius: 12px;
   position: absolute;
-  margin-top: -44px;
+  margin-top: -48px;
   margin-left: 193px;
-}
-.user-video-time time {
   color: #ffffff;
   font-size: 14px;
 }
@@ -313,4 +311,23 @@ body {
   height: 250px;
   border-radius: 14px;
   margin-bottom: 10px;
+}
+
+.user-recommended-video-time {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(0, 0, 0, 0.3);
+  width: 47px;
+  height: 24px;
+  border-radius: 12px;
+  position: absolute;
+  margin-top: -48px;
+  margin-left: 483px;
+  color: #ffffff;
+  font-size: 14px;
+}
+.user-video-time time {
+  color: #ffffff;
+  font-size: 14px;
 }
