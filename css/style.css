@@ -80,10 +80,10 @@ body {
 }
 .icons-link {
   text-decoration: none;
-  opacity: 0.24;
+  opacity: 0.6
 }
 .icons-link:hover {
-  opacity: 0.7;
+  opacity: 0.8;
 }
 .icons-link:not(:last-child) {
   margin-right: 50px;
