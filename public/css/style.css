@@ -1,0 +1,367 @@
+* {
+  box-sizing: border-box;
+  outline: none;
+}
+html {
+  overflow-x: hidden;
+}
+h1, h2, h3 {
+  margin: 0;
+  padding: 0;
+}
+body {
+  font-family: 'Mulish', sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  padding-top: 20px;
+  padding-left: 32px;
+  padding-right: 70px;
+}
+
+.menu-button {
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  background-color: #ffffff;
+  width: 20px;
+  height: 17px;
+  border: none;
+  margin-right: 28px;
+  cursor: pointer;
+}
+
+.menu-line {
+  display: block;
+  background: #1f2022;
+  width: 20px;
+  height: 3px;
+  border-radius: 20px;
+}
+.logo {
+  margin-right: 59px;
+}
+.input-group {
+  background: #ebebeb;
+  border-radius: 22px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-right: 17px;
+  max-width: 830px;
+  width: 50%;
+}
+.input-search {
+  background-color: transparent;
+  border: none;
+  padding-top: 12px;
+  padding-bottom: 12px;
+  padding-left: 23px;
+  padding-right: 23px;
+  width: 100%;
+}
+.button-search {
+  padding: 0;
+  width: 19px;
+  height: 19px;
+  border: none;
+  background-color: transparent;
+  cursor: pointer;
+}
+.icon-search {
+  fill: #000000;
+}
+.icons {
+  display: flex;
+  align-items: center;
+  margin-left: auto;
+}
+.icons-link {
+  text-decoration: none;
+  opacity: 0.6
+}
+.icons-link:hover {
+  opacity: 0.8;
+}
+.icons-link:not(:last-child) {
+  margin-right: 50px;
+}
+.icons-link .count-notification {
+  display: block;
+  width: 18px;
+  height: 18px;
+  background-color: #ff0000;
+  color: #ffffff;
+  font-weight: bold;
+  font-size: 12px;
+  border-radius: 100%;
+  text-align: center;
+  padding-left: 1px;
+  border: 2px solid #ffffff;
+  position: absolute;
+  margin-left: 7px;
+  margin-top: -33px;
+}
+
+.user {
+  margin-left: 45px;
+}
+.user-avatar {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+}
+
+/* container */
+.container {
+  width: 100vw;
+}
+
+.sidebar {
+  padding-left: 32px;
+  width: 194px;
+}
+.nav {
+  width: 134px;
+  margin-right: 90px;
+  margin-top: 59px;
+}
+.nav-menu {
+  margin-top: 0;
+  margin-bottom: 60px;
+  padding-left: 0;
+  margin-right: 66px;
+  list-style-type: none;
+  width: 162px;
+}
+.nav-item {
+  margin-bottom: 28px;
+  color: #898989;
+}
+.nav-link {
+  display: flex;
+  align-items: center;
+  color: #898989;
+  text-decoration: none;
+}
+.nav-link:hover {
+  color: #ff0000;
+}
+.nav-link:hover .icon {
+  fill: #ff0000;
+}
+.nav-item .icon {
+  fill: #898989;
+}
+.nav-text {
+  margin-left: 13px;
+}
+.nav-image {
+  width: 26px;
+  height: 26px;
+  border-radius: 50%;
+}
+.nav-title {
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 23px;
+  margin-bottom: 30px;
+}
+
+/* .content */
+.content {
+  width: 1761px;
+  margin-left: 186px;
+}
+
+/* .user-feed-video */
+.user-feed-video {
+  padding-top: 50px;
+  padding-bottom: 50px;
+  margin-top: -1120px;
+}
+/* .user-feed-video-content */
+.user-feed-video-content {
+  margin-left: 40px;
+  display: inline-flex;
+}
+.user-feed-title {
+  display: flex;
+  justify-content: space-between;
+}
+.user-feed-pic-n-name {
+  display: flex;
+  margin-bottom: 30px;
+  margin-left: 40px;
+  align-items: center;
+  height: 100%;
+  min-width: 245px;
+}
+
+.user-feed-pic {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  margin-right: 20px;
+}
+.user-feed-name {
+  color: #19202C;
+  font-weight: 700;
+  font-size: 26px;
+}
+
+/* user-video */
+.user-video-preview {
+  border-radius: 14px;
+  width: 250px;
+  height: 150px;
+  margin-bottom: 10px
+}
+.user-video-time {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(0, 0, 0, 0.3);
+  width: 47px;
+  height: 24px;
+  border-radius: 12px;
+  position: absolute;
+  margin-top: -48px;
+  margin-left: 193px;
+  color: #ffffff;
+  font-size: 14px;
+}
+
+/* user-video-description */
+.user-video-name {
+  font-size: 16px;
+  color: #19202C;
+  font-weight: 700;
+  margin-bottom: 4px;
+}
+
+/* .views-days-name description */
+.views-days-name {
+  display: flex;
+  justify-content: space-between;
+}
+.views-days-name h3 {
+  font-size: 13px;
+  color: #c2c2c2;
+  font-weight: 400;
+}
+
+.slider-arrows {
+  display: flex;
+  align-items: center;
+  margin-right: 184px;
+}
+.slider-prev {
+  margin-right: 10px;
+  width: 28px;
+}
+.slider-next {
+  transform: scale(-1, 1);
+  width: 28px;
+}
+
+/* .user-recommended-video */
+.user-recommended-video {
+  margin-left: 40px;
+  padding-bottom: 50px;
+}
+.user-recommended-title {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 30px;
+}
+.recommended-title h1 {
+  color: #19202C;
+  font-weight: 700;
+  font-size: 26px;
+}
+
+.slider-arrows-recommended {
+  display: flex;
+  margin-right: 184px;
+}
+.slider-prev-recommended {
+  margin-right: 10px;
+  width: 28px;
+}
+.slider-next-recommended {
+  transform: scale(-1, 1);
+  width: 28px;
+}
+.user-recommended-video-content {
+  display: flex;
+}
+
+.user-recommended-video-item {
+  margin-right: 40px;
+}
+.user-recommended-video-content:nth-child(3) {
+  margin-right: 0;
+}
+
+.user-recommended-preview {
+  width: 540px;
+  height: 250px;
+  border-radius: 14px;
+  margin-bottom: 10px;
+}
+
+.user-recommended-video-time {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(0, 0, 0, 0.3);
+  width: 47px;
+  height: 24px;
+  border-radius: 12px;
+  position: absolute;
+  margin-top: -48px;
+  margin-left: 483px;
+  color: #ffffff;
+  font-size: 14px;
+}
+.user-video-time time {
+  color: #ffffff;
+  font-size: 14px;
+}
+
+
+/* Вторая секция рекомендаций */
+/* .user-recommended-video-two */
+.user-recommended-video-two {
+  padding-bottom: 64px;
+}
+.user-recommended-title-two {
+  display: flex;
+  justify-content: space-between;
+}
+
+/* Кнопка подписки */
+.subscribe-btn {
+  border: none;
+  background-color: #ff0000;
+  color: #ffffff;
+  font-size: 16px;
+  width: 154px;
+  height: 40px;
+  font-family: 'Mulish', sans-serif;
+  border-radius: 20px;
+  cursor: pointer;
+  align-self: center;
+  margin-left: auto;
+  margin-right: 40px;
+}
+.active-subscribe-button {
+  background-color: #898989;
+  color: #f0f0f0;
+}
