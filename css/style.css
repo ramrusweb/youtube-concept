@@ -2,6 +2,9 @@
   box-sizing: border-box;
   outline: none;
 }
+html {
+  overflow-x: hidden;
+}
 h1, h2, h3 {
   margin: 0;
   padding: 0;
@@ -330,4 +333,35 @@ body {
 .user-video-time time {
   color: #ffffff;
   font-size: 14px;
+}
+
+
+/* Вторая секция рекомендаций */
+/* .user-recommended-video-two */
+.user-recommended-video-two {
+  padding-bottom: 64px;
+}
+.user-recommended-title-two {
+  display: flex;
+  justify-content: space-between;
+}
+
+/* Кнопка подписки */
+.subscribe-btn {
+  border: none;
+  background-color: #ff0000;
+  color: #ffffff;
+  font-size: 16px;
+  width: 154px;
+  height: 40px;
+  font-family: 'Mulish', sans-serif;
+  border-radius: 20px;
+  cursor: pointer;
+  align-self: center;
+  margin-left: auto;
+  margin-right: 40px;
+}
+.active-subscribe-button {
+  background-color: #898989;
+  color: #f0f0f0;
 }
